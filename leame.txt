@@ -1,0 +1,58 @@
+Proyecto JSON-SERVER
+debe instalar: 
+
+npm install json-server
+
+Luego ce crea el el archivo db.json
+
+el package.json se configura en scripts con:
+"start": "json-server --watch db.json"
+
+Finalmente en la terminal se corre como:
+npm start
+
+se mostrará lo siguiente:
+> practica-11@1.0.0 start
+> json-server --watch db.json
+
+--watch/-w can be omitted, JSON Server 1+ watches for file changes by default
+JSON Server started on PORT :3000
+Press CTRL-C to stop
+Watching db.json...
+
+♡( ◡‿◡ )
+
+Index:
+http://localhost:3000/
+
+Static files:
+Serving ./public directory if it exists
+
+Endpoints:
+http://localhost:3000/profesores
+http://localhost:3000/alumnos
+http://localhost:3000/cursos
+
+
+------------------ o -------------------
+
+en http://localhost:3000/ se muestra en el navegador la db.json, observe que adicional a los datos hay un id creado por cada endpoint, para poder hacer las pruebas en HTTP con los métodos GET, PUT, PATCH, POST, DELETE
+
+Los endpoints, se utilizaran en POSTMAN para hacer las prueba con 
+GET, Traer información
+PUT, reemplarzar un recurso con una actualización
+PATCH, actualizar un recurso parcialmente
+POST, Crear un nuevo recuerso
+DELETE  para eliminar un recurso
+
+Para correr POSTMAN, hagalo desde la instalación que realizo en windows y proceda a las pruebas con los Endpoint y resultados que se muestren
+
+
+-------------------- ooo ---------------------
+
+Para subir el el proyecto a github,. primero:
+crear el nuevo repositorio en github
+
+Ahora dar los siguientes comando en la terminal de VS Code.
+git init   para inicializar el repositorio local, debe quedar en verde
+git add .  para que se seleccionen todos los archivos

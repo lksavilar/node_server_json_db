@@ -1,0 +1,76 @@
+{
+  "profesores": [
+    {
+      "nombre": "Sergio",
+      "apellido": "Ávila",
+      "materias": [
+        {
+          "nombre": "Nodejs desde cero"
+        },
+        {
+          "nombre": "ReactJS desde cero"
+        },
+        {
+          "nombre": "JavaScript desde cero"
+        }
+      ],
+      "id": "874b"
+    },
+    {
+      "id": "b774",
+      "nombre": "Alejandra Tatiana",
+      "apellido": "Ávila Quintana",
+      "materias": [
+        {
+          "nombre": "Derecho desde cero"
+        },
+        {
+          "nombre": "Quimica desde cero"
+        },
+        {
+          "nombre": "Física desde cero"
+        }
+      ]
+    }
+  ],
+  "alumnos": [
+    {
+      "nombre": "María",
+      "apellido": "Guerrero",
+      "promedio": 8.2,
+      "id": "4d09"
+    },
+    {
+      "nombre": "Alfonsina",
+      "apellido": "Storni",
+      "promedio": 10,
+      "id": "95db"
+    },
+    {
+      "id": "39be",
+      "nombre": "George",
+      "apellido": "Orwell",
+      "promedio": 10
+    }
+  ],
+  "cursos": [
+    {
+      "nombre": "NodeJS desde cero",
+      "duración": 7,
+      "dificultad": "intermedia",
+      "id": "b889"
+    },
+    {
+      "nombre": "ReactJS desde cero",
+      "duración": 8,
+      "dificultad": "intermedia",
+      "id": "171c"
+    },
+    {
+      "nombre": "Angular 17 desde cero",
+      "duración": 8,
+      "dificultad": "alta",
+      "id": "44a9"
+    }
+  ]
+}
