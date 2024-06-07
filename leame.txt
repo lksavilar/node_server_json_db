@@ -54,5 +54,16 @@ Para subir el el proyecto a github,. primero:
 crear el nuevo repositorio en github
 
 Ahora dar los siguientes comando en la terminal de VS Code.
-git init   para inicializar el repositorio local, debe quedar en verde
-git add .  para que se seleccionen todos los archivos
+
+git init   >para inicializar el repositorio local, debe quedar en verde
+
+git add .  >para que se seleccionen todos los archivos
+
+git commit -m "Se creo un pequeño servidor"   >confirmar los cambios realizados en tu repositorio de Git
+
+git branch -M master   se utiliza para renombrar la rama local llamada “master” a “main"
+
+git remote add origin https://github.com/lksavilar/node_json_server_db.git   >se utiliza para agregar un repositorio remoto a tu repositorio local de Git. 
+
+git push -u origin master    >e utiliza para subir los cambios desde tu rama local (en este caso, la rama “master”) a un repositorio remoto llamado “origin”
+
